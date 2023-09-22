@@ -3,50 +3,27 @@
 「心の森林」というアプリをlaravel10 react18 を使用して作成しました。
 
 ## 概要
-自分の感情を思うままに記録ができる日記ノートと感情を他の仲間と共有できるブログサイトを合体させたサイトを作成しました。    
- マルチログイン機能を実装しており、管理者ユーザーと一般ユーザーに分け、それぞれでログインできるようにしています。
+- 自分の感情を思うままに記録ができる日記ノートと感情を他の仲間と共有できるブログサイトを合体させたサイトを作成しました。    
+ - マルチログイン機能を実装しており、管理者ユーザーと一般ユーザーに分け、それぞれでログインできるようにしています。
+ 
 
 ## 使用方法
 - 管理者ユーザー     
 1. 登録された一般ユーザーの一覧表示、削除ができるようになっています。     
-2. テストアカウント：     メールアドレス：kaihatsu@gmail.com     パスワード：KaihatsuPass0906
+-**テストアカウント：     メールアドレス：kaihatsu@gmail.com     パスワード：KaihatsuPass0906**
 
-- 
+- 一般ユーザー
+1.想いノートという画面で思うがままに感情を記録できます。こちらでは、感情の投稿、更新、削除ができるようになっています。    なお、想いノートに関しては、各ユーザーごとに管理しているので自分が残した日記を誰かに見られてしまう心配はありません。
+
+2.心のひろばという画面で他の一般ユーザーと今の想いを共有できます。　こちらも想いノートと同じく、感情の投稿、更新、削除機能に加え、コメント登録ができるようになっています。　なお、投稿の更新、削除機能に関しては、実際に感情を投稿したユーザーのみが行えるようになっています。
 
 
+-**テストアカウント１：　　　メールアドレス：testy@gmail.com     パスワード：TestY0906**
+-**テストアカウント２：　　　　　メールアドレス：tests@gmail.com    パスワード：TestS0906**
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## 開発環境
+XAMPP/MySQL/lavarel10/React
 
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## データベース
+お使いのphpMyAdminにDB.sqlをインポートしていただければお使いいただけるようになるはずです。
