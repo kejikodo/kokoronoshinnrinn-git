@@ -38,6 +38,7 @@ XAMPP/MySQL/lavarel10/React18
 
 ## 詳細設計
 [心の森林　ER図.pdf](https://github.com/kejikodo/kokoronoshinnrinn-git/files/13315129/ER.pdf)     
-[心の森林　テーブル定義書.pdf](https://github.com/kejikodo/kokoronoshinnrinn-git/files/13315141/default.pdf)
+[心の森林　テーブル定義書.pdf](https://github.com/kejikodo/kokoronoshinnrinn-git/files/13315141/default.pdf)     
+[心の森林　ユースケース図.pdf](https://github.com/kejikodo/kokoronoshinnrinn-git/files/13315144/default.pdf)
 
 
