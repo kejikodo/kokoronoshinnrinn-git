@@ -36,6 +36,7 @@ XAMPP/MySQL/lavarel10/React18
 ## データベース
 お使いのphpMyAdminにDB.sqlをインポートしていただければお使いいただけるようになるはずです。     
 
-##　ER図
+## 詳細設計
 [心の森林　ER図.pdf](https://github.com/kejikodo/kokoronoshinnrinn-git/files/13315129/ER.pdf)
+
 
