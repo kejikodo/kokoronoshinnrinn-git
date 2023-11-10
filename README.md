@@ -39,6 +39,12 @@ XAMPP/MySQL/lavarel10/React18
 ## 詳細設計
 [心の森林　ER図.pdf](https://github.com/kejikodo/kokoronoshinnrinn-git/files/13315129/ER.pdf)     
 [心の森林　テーブル定義書.pdf](https://github.com/kejikodo/kokoronoshinnrinn-git/files/13315141/default.pdf)     
-[心の森林　ユースケース図.pdf](https://github.com/kejikodo/kokoronoshinnrinn-git/files/13315144/default.pdf)
+[心の森林　ユースケース図.pdf](https://github.com/kejikodo/kokoronoshinnrinn-git/files/13315144/default.pdf)    
+[心の森林　画面遷移図.pdf](https://github.com/kejikodo/kokoronoshinnrinn-git/files/13315159/default.pdf)
+
+## 不足機能
+今後、こちらのアプリケーションに以下の内容を追加するとさらに良いアプリケーションにあると考えております。    
+1.「想いノート」で投稿した内容を月単位でグラフ化し閲覧できるようにすることで、一目見ただけで月ごとの感情の整理ができるようになります。
+2.管理者画面で、一般ユーザーの投稿した内容を確認することで、不適切な発言をしないように監視ができるようになります。
 
 
